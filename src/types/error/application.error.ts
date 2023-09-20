@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 export default class ApplicationError {
     type: string;
     details: any;
