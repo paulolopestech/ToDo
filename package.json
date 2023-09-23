@@ -29,8 +29,5 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "sequelize": "^6.33.0",
-    "sqlite3": "^5.1.6"
   }
 }
