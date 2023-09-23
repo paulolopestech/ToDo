@@ -16,7 +16,6 @@ async function getUserInput(prompt: string): Promise<any> {
 
 async function cmdApp() {
   const tasks = new Tasks();
-
   while(true) {
     console.log('1 - Criar uma nova tarefa');
     console.log('2 - Listar Tarefas');

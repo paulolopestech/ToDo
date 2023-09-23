@@ -1,7 +1,7 @@
 import { Task } from "./types";
 
 export class Tasks {
-    static tasks: Array<Task> = [];
+    public tasks: Array<Task> = [];
 
     validateCreateTask(task: Task) {
         if(!task.title) return false;
@@ -14,6 +14,6 @@ export class Tasks {
       }
       
     createTask (task: Task) {
-      Tasks.tasks.push(task);
+      this.tasks.push(task);
     }
 }
