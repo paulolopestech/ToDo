@@ -16,4 +16,17 @@ export class Tasks {
     createTask (task: Task) {
       this.tasks.push(task);
     }
+
+    listTasks(): Task[] {
+      return this.tasks;
+  }
+
+  deleteTask(index: number) {
+    if (index >= 0 && index < this.tasks.length) {
+        this.tasks.splice(index, 1);
+        return true;
+    }
+    return false;
+}
+
 }
