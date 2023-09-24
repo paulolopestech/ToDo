@@ -27,7 +27,7 @@ npm install
 Para executar o sistema, use o seguinte comando:
 
 ```bash
-node app.js
+npm run start-cmd
 ```
 
 O aplicativo será iniciado e você poderá interagir com as opções de gerenciamento de tarefas.
@@ -48,8 +48,12 @@ O aplicativo será iniciado e você poderá interagir com as opções de gerenci
 
 Este projeto inclui testes unitários para garantir o correto funcionamento das funcionalidades.
 
-Os testes estão localizados na pasta `tests` e são escritos usando Jest.
+Os testes estão localizados no arquivo `tasks.test.ts` e são escritos usando Jest.
 
+Para execução dos testes, execute o comando:
+```bash
+npm test
+```
 
 ## Licença
 
