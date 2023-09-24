@@ -67,6 +67,9 @@ async function cmdApp() {
             if (updatedStatus) {
                 updatedTask.status = updatedStatus;
             }
+          const taskIsValid = tasksInstance.validateTask(updatedTask);
+          if (taskIsValid) tasksInstance.update(taskIndex, updatedTask);
+          else console.log('Os dados que você inseriu são inválidos, tente novamente!');
 
             console.log('Tarefa atualizada com sucesso.');
         }
