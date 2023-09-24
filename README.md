@@ -2,6 +2,11 @@
 
 Este é um simples sistema de gerenciamento de tarefas em JavaScript/TypeScript, onde você pode criar, listar, atualizar e excluir tarefas.
 
+## Autores:
+### [Paulo Henrique Lopes Júnior](https://github.com/paulolopestech)
+
+### [Pietro Souza Cardoso](https://github.com/Pietro19)
+
 ## Tecnologias Utilizadas
 
 - JavaScript/TypeScript
