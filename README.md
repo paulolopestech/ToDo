@@ -46,7 +46,7 @@ O aplicativo será iniciado e você poderá interagir com as opções de gerenci
 
 ## Testes
 
-Este projeto inclui testes unitários para garantir o correto funcionamento das funcionalidades. Para executar os testes, use o seguinte comando:
+Este projeto inclui testes unitários para garantir o correto funcionamento das funcionalidades.
 
 Os testes estão localizados na pasta `tests` e são escritos usando Jest.
 
