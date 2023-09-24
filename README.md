@@ -18,7 +18,11 @@ Este é um simples sistema de gerenciamento de tarefas em JavaScript/TypeScript,
 2. Clone este repositório:
 
 ```bash
-git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/paulolopestech/ToDo.git)
+git clone git@github.com:paulolopestech/ToDo.git
+```
+ou
+```bash
+git clone https://github.com/paulolopestech/ToDo.git
 ```
 
 3. Instale as dependências usando npm:
