@@ -1,1 +1,56 @@
-# ToDo
+# Sistema de Gerenciamento de Tarefas
+
+Este é um simples sistema de gerenciamento de tarefas em JavaScript/TypeScript, onde você pode criar, listar, atualizar e excluir tarefas.
+
+## Tecnologias Utilizadas
+
+- JavaScript/TypeScript
+- Node.js
+
+## Instalação
+
+1. Certifique-se de ter o Node.js instalado em seu sistema. Você pode baixá-lo [aqui](https://nodejs.org/).
+2. Clone este repositório:
+
+```bash
+git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/paulolopestech/ToDo.git)
+```
+
+3. Instale as dependências usando npm:
+
+```bash
+npm install
+```
+
+## Executando o Sistema
+
+Para executar o sistema, use o seguinte comando:
+
+```bash
+node app.js
+```
+
+O aplicativo será iniciado e você poderá interagir com as opções de gerenciamento de tarefas.
+
+## Funcionalidades
+
+1. **Criar uma Nova Tarefa**: Permite criar uma nova tarefa fornecendo um título, descrição e status.
+
+2. **Listar Tarefas**: Exibe uma lista das tarefas existentes.
+
+3. **Atualizar uma Tarefa**: Permite atualizar o título, descrição ou status de uma tarefa existente.
+
+4. **Excluir uma Tarefa**: Permite excluir uma tarefa existente.
+
+5. **Encerrar Aplicação**: Encerra o aplicativo.
+
+## Testes
+
+Este projeto inclui testes unitários para garantir o correto funcionamento das funcionalidades. Para executar os testes, use o seguinte comando:
+
+Os testes estão localizados na pasta `tests` e são escritos usando Jest.
+
+
+## Licença
+
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
