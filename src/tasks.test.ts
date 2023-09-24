@@ -7,6 +7,12 @@ const mockTask: Task = {
     status: "To do"
 }
 
+const mockUpdateTask: Task = {
+    title: "Updated Task 1",
+    description: "This is a updated mock",
+    status: "To do"
+}
+
 const mockInvalidTask: any = {
     title: "Task 1",
     description: "This is a invalid mock",
@@ -79,13 +85,13 @@ describe('Testing Tasks Class', () => {
 
 })
 
-describe('Testing Delete Task', () => {
-    test('Should delete a task', () => {
-        const sut = makeSut();
-        sut.createTask(mockTask);
-        sut.deleteTask(0);
-        expect(sut.tasks.length).toBe(0);
-    });
+    describe('Testing Delete Task', () => {
+        test('Should delete a task', () => {
+            const sut = makeSut();
+            sut.createTask(mockTask);
+            sut.deleteTask(0);
+            expect(sut.tasks.length).toBe(0);
+        });
 
     test('Should not delete a task if index is out of range', () => {
         const sut = makeSut();
